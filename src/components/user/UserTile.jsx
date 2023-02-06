@@ -4,7 +4,7 @@ import './UserTile.css';
 const UserTile = ({props}) => {
     return (
         <>
-            {props.map((data, i) =>
+            {props.map((data) =>
             <div className='user-tile'>
                 <img  className='user-image' src={data.img} alt="empty"/>
 

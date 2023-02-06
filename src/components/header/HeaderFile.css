@@ -39,11 +39,24 @@ a {
     background-color: white;
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 350px) {
+@media screen and (max-width: 1024px) and (min-width: 350px) {
     #web-navigation-menu {
-        display: none;
+        /* display: none; */
+        display: flex;
+        flex-direction: row;
+        font-size: x-small;
     }
-
+    #mob{
+        margin: 15px;
+        margin-top: 40px;
+    }
+    #mob_head{
+        position: absolute;
+        /* font-size: xx-small; */
+        left: 120px;
+        display: flex;
+        top: -4px;
+    }
     .humburger {
         display: unset;
         font-size: 25px;

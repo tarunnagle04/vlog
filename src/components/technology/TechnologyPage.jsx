@@ -17,7 +17,7 @@ const TechnologyPage = () => {
 
     const technologyTile = [
         {
-            img: 'https://imgs.search.brave.com/1oMRM4Ot2jtWMu22rU-vdTgoaTVz54O7yOL9tVKseLk/rs:fit:1200:720:1/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9f/NWRodjhhN18zVS9t/YXhyZXNkZWZhdWx0/LmpwZw',
+            img:'https://imgs.search.brave.com/1oMRM4Ot2jtWMu22rU-vdTgoaTVz54O7yOL9tVKseLk/rs:fit:1200:720:1/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9f/NWRodjhhN18zVS9t/YXhyZXNkZWZhdWx0/LmpwZw',
             title: 'RUST',
             description: 'The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife and other inhabitants, the environment, other survivors. Do whatever it takes to last another night.',
             developer: 'Unknown'
@@ -46,47 +46,38 @@ const TechnologyPage = () => {
                 <div className='technology-page'>
                     <div className='technology-left'>
                         <div>
-                            <img src="assets/likes.png" alt="empty"/>
+                            <img style={{width:"320px",height:"200px"}} src="https://imgs.search.brave.com/BWAPiGejYkq-HspxHr3hXq7BdIVQYmk-n5pBAjOr9-A/rs:fit:1200:1126:1/g:ce/aHR0cHM6Ly93d3cu/ZmlsZXBpY2tlci5p/by9hcGkvZmlsZS9T/VkZRWlFBeVJwcUoz/MWY2TE5HZQ" alt="empty"/>
                             <span>9.3K</span>
                         </div>
-
+                        <br />
                         <div>
-                            <img src="assets/share.png" alt="empty"/>
-                            <span>Share this article</span>
+                            <img style={{width:"100px"}} src="https://imgs.search.brave.com/BWAPiGejYkq-HspxHr3hXq7BdIVQYmk-n5pBAjOr9-A/rs:fit:1200:1126:1/g:ce/aHR0cHM6Ly93d3cu/ZmlsZXBpY2tlci5p/by9hcGkvZmlsZS9T/VkZRWlFBeVJwcUoz/MWY2TE5HZQ" alt="empty"/><br/>
+                            <span> Share this article</span>
                         </div>
                     </div>
 
                     <div className='technology-right'>
                         <span class="react-heading">5 Ways to animate a React app</span>
 
-                        <UserTile props={userInfo}/>
 
-                        <img className="animation-react-image" src="assets/animation-react.png" alt="empty"/>
+                        <img className="animation-react-image" src="https://imgs.search.brave.com/BWAPiGejYkq-HspxHr3hXq7BdIVQYmk-n5pBAjOr9-A/rs:fit:1200:1126:1/g:ce/aHR0cHM6Ly93d3cu/ZmlsZXBpY2tlci5p/by9hcGkvZmlsZS9T/VkZRWlFBeVJwcUoz/MWY2TE5HZQ" alt="empty"/>
 
                         <p className='react-context'>Animation in ReactJs app is a popular topic and there are many ways to create different types of animations.Many developers create animation exclusively using css and adding classes to HTML tags. This is a great way and you should use it. If you want to create complex animations you can pay attention to GreenSock. GreenSock is the most powerful animation platform. There are also a lot of libraries, components for creating animation in React. Let’s talk about them</p>
 
-                        <img src="assets/react-code.png" alt="empty" className='react-code'/>
 
                         <div className='skills-chip'>
                             <SkillsChip props={skills}/>
                         </div>
 
                         <div>
-                            <img src="assets/likes.png" alt="empty"/>
-                            <span>9.3K</span>
+                            <img style={{width:"50px"}} src="https://imgs.search.brave.com/BWAPiGejYkq-HspxHr3hXq7BdIVQYmk-n5pBAjOr9-A/rs:fit:1200:1126:1/g:ce/aHR0cHM6Ly93d3cu/ZmlsZXBpY2tlci5p/by9hcGkvZmlsZS9T/VkZRWlFBeVJwcUoz/MWY2TE5HZQ" alt="empty"/>
+                            <span>   9.3K</span>
                         </div>
 
                         <div>
-                            <hr/>
-
-                            <UserTile props={userInfo}/>
-
-                            <hr/>
                         </div>
                     </div>
                 </div>
-
-                <span>More from the Siren</span>
 
                 <hr/>
 

@@ -24,16 +24,16 @@ const HeaderFile = () => {
 
     return (
         <div className='header-nav'>
-            <div>
+            <div id='mob_head'>
                 <span className='rotate'>The</span>
                 <span className='serif'>Siren</span>
             </div>
-
+ 
             <div className='humburger'>
                 <button onClick={openMenu}>
                     <i class="fa fa-bars"></i>
                 </button>
-            </div>
+            </div> 
 
             <div className='navigation-menu' ref={myContainer} id="mobile-navigation-menu">
                 <div style={{marginBottom: '13px'}}>
@@ -57,22 +57,22 @@ const HeaderFile = () => {
             </div>
 
             <div className='navigation-menu' id="web-navigation-menu">
-                <div style={{marginBottom: '13px'}}>
+                <div id='mob' style={{marginBottom: '13px'}}>
                     <NavLink to="/">Home</NavLink>
                 </div>
-                <div style={{marginBottom: '13px'}}>
+                <div id='mob' style={{marginBottom: '13px'}}>
                     <NavLink to="/bollywood">Bollywood</NavLink>
                 </div>
-                <div style={{marginBottom: '13px'}}>
+                <div id='mob' style={{marginBottom: '13px'}}>
                     <NavLink to="/technology">Technology</NavLink>
                 </div>
-                <div style={{marginBottom: '13px'}}>
+                <div id='mob' style={{marginBottom: '13px'}}>
                     <NavLink to="/hollywood">Hollywood</NavLink>
                 </div>
-                <div style={{marginBottom: '13px'}}>
+                <div id='mob' style={{marginBottom: '13px'}}>
                     <NavLink to="/fitness">Fitness</NavLink>
                 </div>
-                <div style={{marginBottom: '13px'}}>
+                <div id='mob' style={{marginBottom: '13px'}}>
                     <NavLink to="/food">Food</NavLink>
                 </div>
             </div>

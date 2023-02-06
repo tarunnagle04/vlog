@@ -40,3 +40,6 @@ color: white;
     top: 430px;
     left: 770.5px;
 }
+@media screen and (max-width: 1024px) and (min-width: 350px) {
+    
+}

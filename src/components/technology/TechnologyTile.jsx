@@ -2,19 +2,19 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 
 const TechnologyTile = ({props}) => {
-
+    // console.log(props)
     return (
         <>
-            {props.map((data, i) =>
+            {props.map((data) =>
             <div className='bollywood-tile'>
                 <Link to={`/technology/${data.title}`} state={{data}}>
-                    <img src={data.img} alt="empty"/>
+                    <img src={`${data.img}`} alt="empty"/>
                     <p className='title'>{data.title}</p>
                     <p className='description'>{data.description}</p>
                     <p className='date'>Developer: {data.developer}</p>
                 </Link>
             </div>
-            )}
+            )} 
         </>
     )
 }

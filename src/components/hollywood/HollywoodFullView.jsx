@@ -7,7 +7,7 @@ const HollywoodFullView = () => {
         <div className='full-view'>
             <span>{data.title}</span>
 
-            <img src={'/' + data.img} alt="empty" className='full-view-img'/>
+            <img src={data.img} alt="empty" className='full-view-img'/>
 
             <p>{data.description}</p>
         </div>
