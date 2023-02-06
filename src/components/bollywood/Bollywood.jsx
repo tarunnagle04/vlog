@@ -12,7 +12,7 @@ const Bollywood = ({props}) => {
       releaseDate: '20 Feb 2023'
     },
     {
-      img: 'https://imgs.search.brave.com/TzWoRnOPbOUR_FXALznC9ti1-c0UPTQa_CbtE4ybh1Y/rs:fit:1200:738:1/g:ce/aHR0cHM6Ly9qaW9j/aW5lbWF3ZWIuY2Ru/Lmppby5jb20vamlv/aW1hZ2VzLmNkbi5q/aW8uY29tL2NvbnRl/bnQvZW50cnkvZHlu/YW1pY2NvbnRlbnQv/dGh1bWJzLzE2ODAv/LS8wLzE4LzkvZjU0/ZjM4NTE3NjViMTFl/NmI4NzliNzdjOGJm/NGQzZmNfMTU4MjEx/MjAxNTcyOF9sX21l/ZGl1bS5qcGc',
+      img: 'https://imgs.search.brave.com/4n0pbBa4ViXh9Vnl2811wOG58vCpprjqBF3OlpVHQ5Y/rs:fit:1200:720:1/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9X/OEw3bk41Z3V6QS9t/YXhyZXNkZWZhdWx0/LmpwZw',
       title: 'TERE NAAM',
       description: ' 2003 Indian Hindi-language romantic tragedy film directed by Satish Kaushik. Written by Bala and Jainendra Jain, the film stars Salman Khan and Bhumika Chawla in her Hindi film debut. It is a remake of Bala"s own Tamil film',
       releaseDate: '11 January 2019'

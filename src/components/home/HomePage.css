@@ -1,0 +1,16 @@
+#nn{
+    background: rgb(60,89,115);
+background: linear-gradient(90deg, rgba(60,89,115,1) 0%, rgba(228,125,21,1) 58%);
+}
+#Himalayan{
+    color: white;
+    position: absolute;
+    top: 205px;
+    left: 230.5px;
+}
+#Himalayan_Region{
+    color: white;
+    position: absolute;
+    top: 230px;
+    left: 200px;
+}
