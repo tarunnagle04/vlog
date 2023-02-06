@@ -20,7 +20,7 @@ const HomePage = () => {
             <Fitness props={true}/>
             <Food props={true}/>
             <h4 id='Himalayan'>Himalayan Region</h4>
-            <p id='Himalayan_Region'>Himalayan Region</p>
+            <p id='Himalayan_Region'>The Beauty of the Himalayan Region</p>
             <h4 id='Nature'>Nature</h4>
             <p id='Nature_Region'>Calm Your Eyes</p>
             <h4 id='Valley'>Beautiful Valley</h4>
